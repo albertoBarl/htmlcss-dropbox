@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* header */
 header{
+    background-color: white;
     position: fixed;
     height: 75px;
     width: 100%;
@@ -22,7 +27,6 @@ header div{
 .nav a, img{
     padding: 0px 10px;
     color: black;
-    text-decoration: none;
 }
 
 .nav-right{
@@ -44,4 +48,46 @@ main{
     background-color: skyblue;
     height: 400px;
     width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-footer:first-child{
+    display: flex;
+    width: 70%;
+}
+
+.row-footer:last-child{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.col-footer{
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-top: 50px;
+    padding-bottom: 75px
+}
+
+
+.language{
+    width: auto;
+    border-top: 1px solid white;
+    display: flex;
+    padding-top: 50px;
+}
+
+.language span{
+    padding: 0px 10px;
 }
