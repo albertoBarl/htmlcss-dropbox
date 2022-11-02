@@ -53,7 +53,6 @@ main{
 /* footer */
 footer{
     background-color: black;
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,6 +61,7 @@ footer{
 .row-footer:first-child{
     display: flex;
     width: 70%;
+    color: white;
 }
 
 .row-footer:last-child{
@@ -69,6 +69,8 @@ footer{
     display: flex;
     justify-content: flex-start;
     padding-bottom: 50px;
+    color: white;
+
 }
 
 .col-footer{
@@ -77,7 +79,8 @@ footer{
     flex-direction: column;
     line-height: 2;
     padding-top: 50px;
-    padding-bottom: 75px
+    padding-bottom: 75px;
+    color: white
 }
 
 
