@@ -35,3 +35,13 @@ header div{
     padding: 5px 10px;
 }
 
+/* main */
+main{
+    padding-top: 75px;
+}
+/* jumbotron */
+.jumbotron{
+    background-color: skyblue;
+    height: 400px;
+    width: 100%;
+}
