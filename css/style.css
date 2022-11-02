@@ -3,3 +3,35 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+/* header */
+header{
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+.nav a, img{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right{
+    padding-right: 10px;
+}
+
+.nav-right a:last-child{
+    background-color: #0061fe;
+    color: white;
+    padding: 5px 10px;
+}
+
