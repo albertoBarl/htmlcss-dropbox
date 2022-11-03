@@ -84,12 +84,6 @@ main{
     padding-bottom: 34px;
 }
 
-.trial a{
-    background-color: #0061fe;
-    color: white;
-    padding: 10px;
-}
-
 .trial p{
     padding-top: 25px;
 }
@@ -145,7 +139,47 @@ main{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    line-height: 2;
 }
+
+.user-type{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-type i{
+    padding-right: 5px;
+}
+
+.pack-infos{
+    padding: 20px 20px;
+    font-size: 12px;
+}
+
+.pack-infos div{
+    padding: 20px 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+hr{
+    width: 34px;
+}
+
+.trial-button{
+    background-color: #0061fe;
+    color: white;
+    padding: 10px;
+}
+
 
 
 
