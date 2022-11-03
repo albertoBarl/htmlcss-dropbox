@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 a{
@@ -58,9 +58,9 @@ main{
 
 .title-jumbo{
     width: 60%;
-    font-size: 40px;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 
 .row-jumbo{
@@ -68,6 +68,44 @@ main{
     width: 60%;
 }
 
+/* col small jumbotron */
+.text-jumbo{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.text-jumbo *{
+    padding-bottom: 34px;
+}
+
+.trial a{
+    background-color: #0061fe;
+    padding: 10px;
+}
+
+.trial p{
+    padding-top: 25px;
+}
+
+.text-jumbo i{
+    font-size: 50px;
+}
+
+/* col large jumbotron */
+.img-jumbo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.img-jumbo img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
 /* planes */
 .planes{
     height: 500px;
