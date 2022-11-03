@@ -7,9 +7,9 @@
 
 a{
     text-decoration: none;
-    color: white;
     font-size: 12px;
 }
+
 
 /* header */
 header{
@@ -43,12 +43,15 @@ header div{
     padding: 5px 10px;
 }
 
+
 /* main */
 main{
     padding-top: 75px;
 }
+
+
 /* jumbotron */
-.jumbo-container{
+.jumbotron{
     background-color: skyblue;
     width: 100%;
     margin: 0 auto;
@@ -83,6 +86,7 @@ main{
 
 .trial a{
     background-color: #0061fe;
+    color: white;
     padding: 10px;
 }
 
@@ -107,11 +111,45 @@ main{
     width: 100%;
     height: auto;
 }
+
+
+
 /* planes */
 .planes{
-    height: 500px;
-    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+.row-1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.row-2{
+    padding-bottom: 30px;
+}
+
+.row-2 label{
+    margin-right: 25px;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-row3{
+    width: calc(80% / 3);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
 /* footer */
 footer{
@@ -148,9 +186,11 @@ footer{
     line-height: 2;
     padding-top: 50px;
     padding-bottom: 75px;
-    color: white
 }
 
+.col-footer a{
+    color: white;
+}
 
 .language{
     width: auto;
