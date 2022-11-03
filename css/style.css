@@ -47,10 +47,31 @@ main{
     padding-top: 75px;
 }
 /* jumbotron */
-.jumbotron{
+.jumbo-container{
     background-color: skyblue;
-    height: 400px;
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-jumbo{
+    width: 60%;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.row-jumbo{
+    display: flex;
+    width: 60%;
+}
+
+/* planes */
+.planes{
+    height: 500px;
+    background-color: white;
 }
 
 /* footer */
