@@ -135,7 +135,7 @@ main{
 }
 
 .col-row3{
-    width: calc(80% / 3);
+    width: calc(90% / 3);
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@ main{
 }
 
 .pack-infos{
-    padding: 20px 20px;
+    padding: 10px 15px;
     font-size: 12px;
 }
 
