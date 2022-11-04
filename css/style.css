@@ -166,6 +166,12 @@ main{
 
 li{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li i{
+    padding: 7px 0px;
 }
 
 .fa-solid{
@@ -213,7 +219,7 @@ hr{
     width: 50%;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .finding-partner div:first-child{
@@ -242,7 +248,32 @@ hr{
 
 
 
-/*  */
+/* operations */
+.operations{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.row-operations{
+    display: flex;
+    text-align: center;
+}
+
+.col-operations{
+    padding: 25px;
+}
+
+.col-operations img{
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+
+
 /* footer */
 footer{
     background-color: black;
