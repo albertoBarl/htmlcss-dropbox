@@ -285,20 +285,31 @@ li i{
     width: 50%;
     margin: 0 auto;
     margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.operations h2{
+    font-size: xx-large;
+}
+
+.col-operations{
+    width: 30%;
 }
 
 .row-operations{
     display: flex;
-    text-align: center;
-}
-
-.col-operations{
-    padding: 25px;
+    justify-content: space-between;
 }
 
 .col-operations img{
+    padding-top: 50px;
     width: 250px;
     height: auto;
+}
+
+.col-operations h3{
+    margin-bottom: 25px;
 }
 
 
