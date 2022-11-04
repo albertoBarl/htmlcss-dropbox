@@ -116,11 +116,13 @@ main{
     flex-direction: column;
 }
 
+/* row 1 */
 .row-1{
     padding-top: 150px;
     padding-bottom: 50px;
 }
 
+/* row 2 */
 .row-2{
     padding-bottom: 30px;
 }
@@ -129,17 +131,20 @@ main{
     margin-right: 25px;
 }
 
+/* row 3     */
 .row-3{
     display: flex;
     justify-content: space-between;
 }
 
 .col-row3{
-    width: calc(90% / 3);
+    width: 30%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     line-height: 2;
+    padding-bottom: 50px;
 }
 
 .user-type{
@@ -147,10 +152,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.user-type i{
-    padding-right: 5px;
+    padding: 0px 0px;
 }
 
 .pack-infos{
@@ -158,8 +160,8 @@ main{
     font-size: 12px;
 }
 
-.pack-infos div{
-    padding: 20px 0px;
+.col-row3 .pack-infos div{
+    min-height: 150px;
 }
 
 li{
@@ -178,6 +180,30 @@ hr{
     background-color: #0061fe;
     color: white;
     padding: 10px;
+}
+
+/* planes 4 */
+.row-4{
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.row-4 .pack-infos div div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.row-4 .pack-infos div a{
+    position: absolute;
+    right: 15px;
+    top: 35px
+}
+
+.row-4 .pack-infos div:last-child{
+    padding: 25px 0px;
 }
 
 
