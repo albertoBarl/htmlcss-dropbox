@@ -16,7 +16,7 @@ header{
     background-color: white;
     position: fixed;
     height: 75px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +47,7 @@ header div{
 /* main */
 main{
     padding-top: 75px;
+    width: 100vw;
 }
 
 
@@ -284,6 +285,91 @@ hr{
     padding-bottom: 50px;
     width: 50%;
 }
+
+
+
+/* Teams */
+.teams{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.col-teams{
+    width: calc(100% / 3);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-teams div{
+    display: flex;
+    height: calc(100% / 2);
+}
+
+.col-teams div div img{
+    width: 200px;
+    height: auto;
+    padding: 25px;
+}
+
+.col-teams div:first-child div:first-child{
+    background-color: brown;
+    width: calc(100% / 2);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-teams div:first-child div:last-child{
+    background-color: rgb(42, 136, 165);
+    width: calc(100% / 2);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-teams div:last-child div:first-child{
+    background-color: rgb(89, 165, 42);
+    width: calc(100% / 2);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-teams div:last-child div:last-child{
+    background-color: rgb(165, 128, 42);
+    width: calc(100% / 2);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* col 2 teams */
+.col-teams-2{
+    background-color: rgb(255, 142, 236);
+    height: auto;
+    padding: 50px;
+}
+
+.col-teams-2 *{
+    margin-bottom: 25px;
+    min-height: 125px;
+}
+
+.col-teams-2 img{
+    width: 200px;
+    height: auto;
+    text-align: start;
+    border-bottom: 1px solid black;
+}
+
 
 
 
