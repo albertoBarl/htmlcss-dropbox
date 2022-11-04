@@ -271,6 +271,20 @@ hr{
 
 
 
+/* Small row */
+.small-row{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+.small-row h2{
+    font-size:xx-large;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
 
 
 
