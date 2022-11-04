@@ -182,7 +182,7 @@ hr{
     padding: 10px;
 }
 
-/* planes 4 */
+/* row 4 */
 .row-4{
     border: 1px solid black;
     margin-top: 40px;
@@ -208,9 +208,41 @@ hr{
 
 
 
+/* Finding partner */
+.finding-partner{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.finding-partner div:first-child{
+    width: 60%;
+}
+
+.finding-partner div:last-child{
+    width: 40%;
+    padding: 50px 25px;
+}
+
+.finding-partner div img{
+    width: 100%;
+    height: auto;
+}
+
+.finding-partner div:last-child *{
+    padding-bottom: 34px;
+}
+
+.finding-partner div:last-child a{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+}
 
 
 
+/*  */
 /* footer */
 footer{
     background-color: black;
