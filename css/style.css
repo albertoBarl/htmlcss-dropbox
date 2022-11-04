@@ -286,6 +286,11 @@ hr{
     width: 50%;
 }
 
+.small-row a{
+    color: blue;
+    text-decoration: underline;
+}
+
 
 
 /* Teams */
@@ -375,7 +380,7 @@ hr{
 /* start trial */
 .start-trial{
     background-color: skyblue;
-    padding: 50px;
+    padding: 50px 0px;
 }
 
 .start-trial div{
@@ -398,6 +403,31 @@ hr{
     color: black;
 }
 
+
+
+/* FAQ */
+.FAQ{
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+    padding: 100px 0px;
+}
+
+.FAQ h2{
+    padding-bottom: 50px;
+}
+
+.FAQ li{
+    border-top: 1px solid black;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FAQ li:last-child{
+    border-bottom: 1px solid black;
+}
 
 /* footer */
 footer{
