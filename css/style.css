@@ -361,8 +361,7 @@ li i{
     filter: invert(1);
 }
 
-.col-teams div:first-child div:first-child{
-    background-color: brown;
+.col-teams div div{
     width: calc(100% / 2);
     height: auto;
     display: flex;
@@ -370,37 +369,43 @@ li i{
     align-items: center;
 }
 
-.col-teams div:first-child div:last-child{
-    background-color: rgb(42, 136, 165);
-    width: calc(100% / 2);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-teams-1 div:first-child div:first-child{
+    background-color: green;
+    border: 15px solid darkgreen;
 }
 
-.col-teams div:last-child div:first-child{
-    background-color: rgb(89, 165, 42);
-    width: calc(100% / 2);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-teams-1 div:first-child div:last-child{
+    background-color: darkred;
 }
 
-.col-teams div:last-child div:last-child{
-    background-color: rgb(165, 128, 42);
-    width: calc(100% / 2);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-teams-1 div:last-child div:first-child{
+    background-color: skyblue;
+}
+
+.col-teams-1 div:last-child div:last-child{
+    background-color: red;
+}
+
+.col-teams-3 div:first-child div:first-child{
+    background-color: red;
+}
+
+.col-teams-3 div:first-child div:last-child{
+    background-color: skyblue;
+}
+
+.col-teams-3 div:last-child div:first-child{
+    background-color: darkblue;
+}
+
+.col-teams-3 div:last-child div:last-child{
+    background-color: gold;
 }
 
 
 /* col 2 teams */
 .col-teams-2{
-    background-color: rgb(255, 142, 236);
+    background-color: lightgray;
     height: auto;
     padding: 50px;
 }
@@ -422,7 +427,7 @@ li i{
 /* start trial */
 .start-trial{
     background-color: lightblue;
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 .start-trial div{
@@ -434,11 +439,14 @@ li i{
 }
 
 .start-trial div h2{
-    width: 33%;
+    width: 50%;
+    font-size: xx-large;
+    color: darkred;
 }
 
 .start-trial div a{
     padding: 10px;
+    font-size: large;
     width: max-content;
     height: max-content;
     background-color: white;
