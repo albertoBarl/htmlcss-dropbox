@@ -503,15 +503,6 @@ footer{
     line-height: 3;
 }
 
-.row-footer:last-child{
-    width: 70%;
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 50px;
-    color: white;
-
-}
-
 .col-footer{
     width: calc(100% / 5);
     display: flex;
@@ -523,6 +514,16 @@ footer{
 
 .col-footer a{
     color: white;
+}
+
+/* footer 2nd half */
+.row-footer:last-child{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+    color: white;
+
 }
 
 .language{
