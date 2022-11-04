@@ -110,6 +110,14 @@ main{
     height: auto;
 }
 
+.trial-button{
+    background-color: #0061fe;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 
 /* planes */
@@ -118,28 +126,30 @@ main{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
 }
 
 /* row 1 */
 .row-1{
-    padding-top: 150px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: x-large;
 }
 
 /* row 2 */
 .row-2{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .row-2 label{
     margin-right: 25px;
+    font-size: 15px;
 }
 
 /* row 3     */
 .row-3{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .col-row3{
@@ -147,9 +157,7 @@ main{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     line-height: 2;
-    padding-bottom: 50px;
 }
 
 .user-type{
@@ -157,16 +165,38 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px;
+    padding: 10px 0px;
 }
 
 .pack-infos{
-    padding: 10px 15px;
+    padding: 30px 20px;
     font-size: 12px;
 }
 
-.col-row3 .pack-infos div{
-    min-height: 150px;
+.col-row3 .pack-infos div:nth-child(2){
+    margin-top: 50px;
+    min-height: 200px;
+}
+
+.col-row3 .pack-infos div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    min-height: 100px;
+}
+
+.col-row3 .pack-infos div:nth-child(3) span{
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.col-row3 .pack-infos div:nth-child(4){
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.col-row3 .pack-infos div:nth-child(3) a:last-child{
+    color: blue;
 }
 
 li{
@@ -183,38 +213,35 @@ li i{
     padding-right: 5px;
 }
 
-hr{
-    width: 34px;
-}
-
-.trial-button{
-    background-color: #0061fe;
-    color: white;
-    padding: 10px;
+.fa-check{
+    color: blue;
 }
 
 /* row 4 */
 .row-4{
     border: 1px solid black;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    position: relative;
+    margin-bottom: 150px;
 }
 
-.row-4 .pack-infos div div{
+.row-4 .pack-infos{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     line-height: 2;
 }
 
-.row-4 .pack-infos div a{
-    position: absolute;
-    right: 15px;
-    top: 35px
+.row-4 .pack-infos div:first-child{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
 }
 
-.row-4 .pack-infos div:last-child{
-    padding: 25px 0px;
+.row-4 .pack-infos div:first-child h4{
+    margin-top: 10px;
+}
+
+.row-4 .pack-infos div:first-child p{
+    margin-top: 50px;
 }
 
 
