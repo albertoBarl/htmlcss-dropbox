@@ -67,10 +67,10 @@ main{
     width: 60%;
     font-size: 50px;
     padding-top: 75px;
-    padding-bottom: 50px;
 }
 
 .row-jumbo{
+    margin-top: 50px;
     display: flex;
     width: 60%;
 }
@@ -85,15 +85,16 @@ main{
 }
 
 .text-jumbo *{
-    padding-bottom: 34px;
-}
-
-.trial p{
-    padding-top: 25px;
+    margin-bottom: 25px;
 }
 
 .text-jumbo i{
     font-size: 50px;
+    color: black;
+}
+
+.trial p{
+    margin-top: 25px;
 }
 
 /* col large jumbotron */
@@ -160,6 +161,7 @@ main{
     line-height: 2;
 }
 
+/* content row 3 col1,2,3 */
 .user-type{
     border-bottom: 1px solid black;
     display: flex;
