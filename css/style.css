@@ -312,6 +312,7 @@ hr{
     width: 200px;
     height: auto;
     padding: 25px;
+    filter: invert(1);
 }
 
 .col-teams div:first-child div:first-child{
