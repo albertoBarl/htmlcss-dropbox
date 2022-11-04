@@ -13,7 +13,6 @@ a{
 
 /* header */
 header{
-    background-color: white;
     position: fixed;
     height: 75px;
     width: 100vw;
@@ -53,7 +52,7 @@ main{
 
 /* jumbotron */
 .jumbotron{
-    background-color: skyblue;
+    background-color: lightblue;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -379,7 +378,7 @@ hr{
 
 /* start trial */
 .start-trial{
-    background-color: skyblue;
+    background-color: lightblue;
     padding: 50px 0px;
 }
 
