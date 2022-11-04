@@ -359,7 +359,7 @@ li i{
 .col-teams div div img{
     width: 80%;
     height: auto;
-    padding: 25px;
+    margin: 10%;
     filter: invert(1);
 }
 
@@ -420,7 +420,6 @@ li i{
 .col-teams-2 img{
     width: 34%;
     height: auto;
-    text-align: start;
     border-bottom: 1px solid black;
 }
 
