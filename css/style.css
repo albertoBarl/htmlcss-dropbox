@@ -293,7 +293,6 @@ hr{
     width: 100%;
     height: auto;
     display: flex;
-    margin-bottom: 150px;
 }
 
 .col-teams{
@@ -373,10 +372,36 @@ hr{
 
 
 
+/* start trial */
+.start-trial{
+    background-color: skyblue;
+    padding: 50px;
+}
+
+.start-trial div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.start-trial div h2{
+    width: 33%;
+}
+
+.start-trial div a{
+    padding: 10px;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+}
 
 
 /* footer */
 footer{
+    width: 100vw;
     background-color: black;
     display: flex;
     flex-direction: column;
