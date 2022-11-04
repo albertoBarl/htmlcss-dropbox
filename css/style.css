@@ -13,6 +13,7 @@ a{
 
 /* header */
 header{
+    background-color: white;
     position: fixed;
     height: 75px;
     width: 100vw;
