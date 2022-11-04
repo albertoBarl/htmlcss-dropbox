@@ -464,10 +464,12 @@ li i{
 }
 
 .FAQ h2{
+    font-size: xx-large;
     padding-bottom: 50px;
 }
 
 .FAQ li{
+    font-weight: bold;
     border-top: 1px solid black;
     padding: 25px 0px;
     display: flex;
